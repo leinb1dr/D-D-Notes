@@ -27,4 +27,9 @@ permalink: /Bavleri/
 
 ## Cities
 
-[**Ashana**](Tuulsa/Ashana/Ashana.md)
+[**Ashana**](Tuulsa/Ashana/)
+**Dabrync**
+
+## Villages
+
+**Fishmill**
