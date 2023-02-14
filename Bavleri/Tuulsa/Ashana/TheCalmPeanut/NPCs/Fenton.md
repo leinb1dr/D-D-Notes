@@ -1,6 +1,7 @@
 ---
 layout: page
-permalink: /Bavleri/Tuulsa/Ashana/TheCalmPeanut/NPC/Fenton
+type: npc
+location: TheCalmPeanut
 ---
 ## Fenton, Bard
 

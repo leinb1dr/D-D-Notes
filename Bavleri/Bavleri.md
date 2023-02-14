@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Bavleri
-permalink: /Bavleri/
 ---
 
 <div style="float: left; width: 50%;">
@@ -27,7 +26,8 @@ permalink: /Bavleri/
 
 ## Cities
 
-[**Ashana**](Tuulsa/Ashana/)
+[**Ashana**](Tuulsa/Ashana/Ashana)
+
 **Dabrync**
 
 ## Villages

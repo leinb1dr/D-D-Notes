@@ -1,0 +1,28 @@
+---
+layout: page
+title: The Bitter Leg
+---
+The Bitter Leg is a tavern located in a Ashana. The owner of the tavern, Balgruuf.
+
+<!-- -----BEGIN PGP MESSAGE-----
+
+hQEMA4pDv9EWh+HcAQf/fvtkin8a0AiKCZZ8ZpZ68UHB1GU4iJmN5LuJkHoGsBuh
+uoPtc133tjA9+0fAX0CBs+XroLO1+kfdpGulT5nkxSgEMqK+Rp/Mv99KG29iaKaC
+Cgi7NHshhjqjBdrv7FAl10sRiQ8ragIxgzN/SYZxhIsoOUmPQj9Gf3IkdCLMcz3z
+aSvyrD899ccgF0OopV7T0ItM220tLhqSveWCif+cM5RKo+XggC4e6RRJ9TyeVF6c
+N9dGh3jVXs4nRsrmAotG6WR/Y/l2Y5ChVa6/aSxT0Yi5mp4OpFeBbXOflN3LNwUO
++Zv6h8vXZWboI0P9ULe5FtcYMvSYUGpn0eacpbCbI9LpAYZlh4bLa/MC6OY6+S6o
+JzKOyZz13iJH70iLWTZbAtOBvbk3PaD0ZXpbjY5RD3QpNMWP113JFvHuJH9+vbgC
+NI7lqov5MdtaUg+XJLhRrtZ8QCqm4PbHLraVG0m3i6rft+HpLke5k8xTBzb9yrR2
+fmUuLk5DIbQlvjx2ysYhSCw799V3M5aePH3wDw5FmsO/LVBAlRfKXWTttkX8jb6s
+mjez8w+LpBGTeQ03Ttrq9/hvAPHKc+zY0sRm1HyKvuif1NwZrKkB09dNgDaZgN9q
+6ZyYhNvVCstpUGFYz5heHOKsOO3OB72UkAYWtzo9hEWSp0UmF6eM5wx3DzRrWfty
+XB11HKFyBtQQw6x0SxpRDpxT23etkaZIeevLSeJVLeFx6GjIK737cLvD5RqBzINa
+1KEMY6OKfQzIx26f3cHyCjDP1Z5/dj59ZkGDX6D/0aXBYd/uIkHvur64LVwJjsiK
+w6a1zFHw+0atJ7mmOr2wYNdjqeaBtSCE2qtKCap/YDoGqNLKQA4/dUbCUuMurBOl
+T1pA+pLLx1GIIf1C9vcpJzqA8sI2fG+xvLnsmclUk2x3DHRFNzCfO6JTQcTEHPqU
+I4ztvRkANAL76e17OJT8S/MqjXA6GBhauC7/NaeBwqCEckg4eqwlxH8J/ks4OydS
+QqrN90BE51w5LPlnQi5FoUErmVsn44JQdz5d5fpzb4JnTUDZuTtbbmnzaWcQm0Bi
+wCvO8yKuHRQcxxSyLw==
+=DpIn
+-----END PGP MESSAGE----- -->

@@ -1,7 +1,6 @@
 ---
 layout: page
 title: The Calm Peanut
-permalink: /Bavleri/Tuulsa/Ashana/TheCalmPeanut
 ---
 The Calm Peanut is a tavern located in a Ashana. The owner of the tavern, Gimli.
 
@@ -16,8 +15,8 @@ A small stage is located at one end of the tavern, with a few instruments restin
 
 ## NPCs
 
-* [Gimli](NPC/Gimli)
-* [Fenton](NPC/Fenton)
+* [Gimli](NPCs/Gimli)
+* [Fenton](NPCs/Fenton)
 
 ## Adventure Hooks
 

@@ -1,6 +1,5 @@
 ---
 layout: page
-permalink: /Bavleri/Tuulsa/Ashana/TheCalmPeanut/NPC/Fenton
 ---
 
 ## Gimli, Tavern Owner

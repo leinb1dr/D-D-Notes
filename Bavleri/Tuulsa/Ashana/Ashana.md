@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Ashana
-permalink: /Bavleri/Tuulsa/Ashana/
 ---
 
 ## Description
@@ -26,9 +25,9 @@ This office deals with public service within the city and there are a set of sma
 
 There has been a recent change to the approval for new adventurers that makes it impossible to register new adventurers.
 
-### The Bitter Leg
+### [The Bitter Leg](TheBitterLeg/TheBitterLeg)
 
-### [The Calm Peanut Inn](TheCalmPeanut)
+### [The Calm Peanut Inn](TheCalmPeanut/TheCalmPeanut)
 
 ### Quill and Gavel
 	• Meeting point for the thieves guild
@@ -51,9 +50,20 @@ It is walled off a bit so people do not see it when the go to the stadium.
 
 ### Kord's Arena
 There are sporting event's held here:
-	• Celtic Trials
-	• Races
-	• Football
-	• Gladiatorial Combat
+* Celtic Trials
+* Races
+* Football
+* Gladiatorial Combat
 
-### Notable NPCs
+<!-- ### Notable NPCs
+{% capture dir %}{{ page.url | remove: page.name }}{% endcapture %}
+{% assign locations = "" | split: "" %}
+
+{% for page in site.pages %}
+  {% if page.type == 'npc' and page.url contains dir %}
+	{{page.title}}
+	{% assign locations = locations | push: page %}
+  {% endif %}
+{% endfor %}
+
+{{locations}} -->

@@ -12,4 +12,4 @@ Welcome to the world of **Bavleri**, the setting for our D&D campaign "Does a 30
 
 Click the link below to delve deeper into the world of Bavleri:
 
-[Bavleri](./Bavleri/)
+[Bavleri](./Bavleri/Bavleri)
