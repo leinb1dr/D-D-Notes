@@ -1,0 +1,72 @@
+---
+layout: default
+---
+<article class="npc-column">
+
+    <header class="npc-column npc-section">
+        <h1 class="npc-title">{{ page.title | escape }}</h1>
+        <div class="npc-subtitle">({{ page.npc.race }}) - {{ page.npc.class }}</div>
+    </header>
+
+    <section class="npc-column npc-section">
+        <p></p>
+        <div class="npc-row">
+            <div class="npc-column npc-cell">
+
+                <div><span class="npc-attr-key">Armor Class:</span>{{ page.npc.ac }}</div>
+                <div><span class="npc-attr-key">Hit Points:</span>{{ page.npc.hp }}</div>
+                <div><span class="npc-attr-key">Speed:</span>{{ page.npc.speed }}</div>
+
+            </div>
+            <div class="npc-column npc-cell">
+                <div><span class="npc-attr-key"></span></div>
+                <div class="npc-row">
+                    <div class="npc-attribute"><span class="npc-attr-key">STR:</span>{{ page.attributes.STR }}</div>
+                    <div class="npc-attribute"><span class="npc-attr-key">DEX:</span>{{ page.attributes.DEX }}</div>
+                    <div class="npc-attribute"><span class="npc-attr-key">CON:</span>{{ page.attributes.CON }}</div>
+                </div>
+
+                <div class="npc-row">
+                    <div class="npc-attribute"><span class="npc-attr-key">WIS:</span>{{ page.attributes.WIS }}</div>
+                    <div class="npc-attribute"><span class="npc-attr-key">INT:</span>{{ page.attributes.INT }}</div>
+                    <div class="npc-attribute"><span class="npc-attr-key">CHA:</span>{{ page.attributes.CHA }}</div>
+                </div>
+            </div>
+        </div>
+        <p></p>
+    </section>
+    <section class="npc-row">
+        <div class="npc-content npc-cell">
+            {{ content }}
+        </div>
+        <div class="npc-actions">
+            <section class="npc-column npc-section">
+                <h4>SKILLS</h4>
+                <section class="npc-row npc-subsection">
+                    {%- include npc-skills.html -%}
+                </section>
+            </section>
+            <section class="npc-column npc-section">
+                <h4>ACTIONS</h4>
+                <section class="npc-row npc-subsection">
+                    {%- include npc-spells.html -%}
+                    {%- include npc-weapons.html -%}
+                </section>
+            </section>
+            <section class="npc-column npc-section">
+                <h4>TRAITS</h4>
+                <section class="npc-row npc-subsection">
+                    {%- for trait in page.personality_traits -%}
+                    <div class="npc-attribute"><span class="npc-attr-key">{{trait.trait}}:</span>{{trait.description}}
+                    </div>
+                    {%- endfor -%}
+                </section>
+            </section>
+        </div>
+    </section>
+
+    </div>
+
+
+
+</article>

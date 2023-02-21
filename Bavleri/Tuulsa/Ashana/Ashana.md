@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Ashana
+type: city
 ---
 
 ## Description

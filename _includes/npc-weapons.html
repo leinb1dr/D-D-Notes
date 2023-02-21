@@ -1,0 +1,10 @@
+{%- if !page.actions } -%}
+{%- for action in page.actions -%}
+<section>
+    <div class="npc-attribute"><span class="npc-attr-key">{{action.name}} ({{action.mod}})</span></div>
+    <section class="npc-block npc-section">
+        {{action.description}}
+    </section>
+</section>
+{%- endfor -%}
+{%- endif -%}

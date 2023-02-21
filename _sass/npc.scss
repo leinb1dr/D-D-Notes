@@ -1,0 +1,60 @@
+.npc-title{
+    @include relative-font-size(2.625);
+  letter-spacing: -2px;
+  line-height: 1;
+  margin-bottom: 0px;
+
+  @include media-query($on-laptop) {
+    @include relative-font-size(2.25);
+  }
+}
+.npc-content{
+    max-width: 60%;
+}
+.npc-block {
+    margin-left: 1em;
+}
+.npc-attribute {
+    margin-right: 1em;
+    min-width: 100px;
+}
+.npc-cell {
+    margin-right: 1em;
+}
+.npc-section {
+    margin-bottom: 1em;
+}
+.npc-subsection {
+    font-size: small;
+}
+.npc-key{
+    margin-right: 1em;
+    min-width: 50px;
+    display: flex;
+}
+.npc-attr-key{
+    font-weight: bold;
+    margin-right: 1em;
+    min-width: 100px;
+    display: inline;
+}
+.npc-subtitle {
+    font-weight: bold;
+    font-size: smaller;
+    color: #616161;
+    letter-spacing: -1px;
+}
+
+.npc-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.npc-column{
+    display: flex;
+    flex-direction: column;
+}
+.npc-actions{
+    max-width: 30%;
+}

@@ -1,0 +1,8 @@
+{%- if !page.skills } -%}
+<div class="npc-attribute npc-row">
+{%- for skill in page.skills -%}
+    <span class="npc-cell">{{skill.name}} ({{skill.mod}})</span>
+{%- endfor -%}
+</div>
+
+{%- endif -%}

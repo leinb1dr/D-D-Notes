@@ -1,0 +1,19 @@
+{%- if !page.magic } -%}
+<section>
+    <div class="npc-attribute"><span class="npc-attr-key">Spellcasting (+{{ page.magic.mod }} / DC: {{
+            page.magic.dc}})</span></div>
+    <section class="npc-block npc-section npc-column">
+        {%- for spell in page.magic.spells -%}
+        <div class="npc-attribute npc-row">
+            <span class="npc-key">{{spell.label}}:</span>
+            {%- for name in spell.names -%}
+            <span><a target="_blank"
+                    href='https://www.dndbeyond.com/spells/{{name | downcase | replace: " ", "-"}}'>{{name}}</a>
+                {%- if forloop.index != forloop.length -%}, {%- endif -%}&nbsp;</span>
+            {%- endfor -%}
+        </div>
+
+        {%- endfor -%}
+    </section>
+</section>
+{%- endif -%}
