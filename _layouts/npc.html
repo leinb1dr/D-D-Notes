@@ -18,6 +18,7 @@ layout: default
                 <div><span class="npc-attr-key">Speed:</span>{{ page.npc.speed }}</div>
 
             </div>
+            {%- if page.attributes -%}
             <div class="npc-column npc-cell">
                 <div><span class="npc-attr-key"></span></div>
                 <div class="npc-row">
@@ -32,6 +33,7 @@ layout: default
                     <div class="npc-attribute"><span class="npc-attr-key">CHA:</span>{{ page.attributes.CHA }}</div>
                 </div>
             </div>
+            {%- endif -%}
         </div>
         <p></p>
     </section>

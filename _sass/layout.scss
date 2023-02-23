@@ -1,0 +1,19 @@
+.cell {
+    margin-right: 1em;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.bordered-cell{
+    padding: 0.5em;
+    margin: 0.5em;
+    border-left-style: solid;
+    max-width: 30%;
+    border-color: rgba(61, 61, 61, 0.656);
+}

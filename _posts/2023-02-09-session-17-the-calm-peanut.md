@@ -1,5 +1,10 @@
-# Post-Session Summary
-## Date: 02-09-2023
+---
+layout: post
+title: Session 17 - The Calm Peanut
+gameDate: 2020-10-23
+---
+
+### In Game Date: {{page.gameDate | date: "%m-%d-%Y"}}
 
 ### Recap of the Session
 The D&D and Nightstar had their second audition performance for their Performance Visa. This one was a success with the players re-enacting the events of the high seas, where the recovered the antidote for the young Harryfoot boy.
@@ -27,7 +32,10 @@ There are apparently people who are following Varis's teachings.
 ### Player Projects
 * Nightstar
     * Working on playing card proficiency: `In Progress`<br/>
-No Updates
+* Djinn
+    * Work Visa Residency: `7 days left`<br/>
+* Eddie
+    * Work Visa Residency: `7 days left`<br/>
 
 ### Quest Log
 * *Mysteries of Ashana:* `In Progress`<br/>

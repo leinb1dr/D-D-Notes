@@ -9,8 +9,18 @@ github_username:  leinb1dr
 theme: minima
 plugins:
   - jekyll-feed
+  - jemoji
 markdown: kramdown
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
   parse_block_html: true
+collections:
+  events:
+    output: true
+    permalink: /events/:path/
+    title: Events
+  archivedStories:
+    output: true
+    permalink: /archived-stories/:path/
+    title: Archived Stories

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Bavleri
+type: city
 ---
 
 <div style="float: left; width: 50%;">
@@ -32,4 +33,4 @@ title: Bavleri
 
 ## Villages
 
-**Fishmill**
+[**Fishmill**](Tuulsa/Fishmill/Fishmill)

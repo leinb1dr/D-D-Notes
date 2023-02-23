@@ -8,8 +8,31 @@ title: Does a 30 Hit - D&D Campaign
 
 Welcome to the world of **Bavleri**, the setting for our D&D campaign "Does a 30 Hit". 
 
-### Explore Bavleri
+## [Bavleri](./Bavleri/Bavleri)
 
-Click the link below to delve deeper into the world of Bavleri:
+## World Events
+<div class="row">
+{% assign events = site.events | sort: 'gameDate' | reverse %}
+{% for event in events %}
+<div class="column bordered-cell">
+<span class="post-meta">{{event.gameDate | date: "%b %d, %Y"}}</span>
+{{event}}
 
-[Bavleri](./Bavleri/Bavleri)
+</div>
+{% endfor %}
+</div>
+
+## Archived Stories
+<div class="column">
+{% assign stories = site.archivedStories | sort: 'gameDate' | reverse %}
+{% for story in stories %}
+<div class="bordered-cell">
+<a href="{{story.url | relative_url}}" target="_blank">{{story.title}}</a>
+
+Start: `{{story.gameDate}}`
+
+Completed: `{{story.completedDate}}`
+
+</div>
+{% endfor %}
+</div>

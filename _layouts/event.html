@@ -1,0 +1,12 @@
+---
+layout: none
+---
+<div>
+{{ content }}
+{% assign posts = site.posts %}
+{% for post in posts %}
+{% if post.gameDate == page.gameDate %}
+<a href="{{post.url | relative_url}}" target="_blank">{{post.title}}</a>
+{% endif %}
+{%- endfor %}
+</div>
