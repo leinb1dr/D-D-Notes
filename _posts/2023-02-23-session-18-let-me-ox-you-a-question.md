@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Session 17 - The Calm Peanut
-gameDate: 2020-10-23
+gameDate: 2020-10-27
 ---
 
 ### In Game Date: {{page.gameDate | date: "%m-%d-%Y"}}
