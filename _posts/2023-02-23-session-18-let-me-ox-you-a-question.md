@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Session 17 - The Calm Peanut
+title: Session 18 - Let Me Ox You A Question
 gameDate: 2020-10-27
 ---
 
