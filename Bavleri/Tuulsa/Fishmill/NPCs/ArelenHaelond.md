@@ -1,6 +1,13 @@
 ---
-layout: page
+layout: npc
 title: Arelen Haelond
+type: npc
+npc:
+  race: Firbolg
+  class: Innkeeper, Village Leader
+  ac: 10
+  hp: 5 (1d8)
+  speed: 30 ft.
 ---
 
 ## Occupation/History

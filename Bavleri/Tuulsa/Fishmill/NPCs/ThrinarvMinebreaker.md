@@ -1,3 +1,9 @@
+---
+layout: npc
+title: Thrinarv Minebreaker
+type: npc
+---
+
 ## Occupation/History
 
 Thrinarv Minebreaker is a blacksmith in Fishmill

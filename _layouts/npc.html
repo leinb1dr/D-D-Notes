@@ -6,6 +6,10 @@ layout: default
     <header class="npc-column npc-section">
         <h1 class="npc-title">{{ page.title | escape }}</h1>
         <div class="npc-subtitle">({{ page.npc.race }}) - {{ page.npc.class }}</div>
+        {% if page.location %}
+        {% assign locationPage = site.pages | where_exp: 'item', 'item.name contains page.location' | first %}
+        <div class="npc-subtitle"><a href="{{ locationPage.url | relative_url}}" >{{ locationPage.title }}</a></div>
+        {% endif %}
     </header>
 
     <section class="npc-column npc-section">
@@ -42,12 +46,15 @@ layout: default
             {{ content }}
         </div>
         <div class="npc-actions">
+            {% if npc.skills %}
             <section class="npc-column npc-section">
                 <h4>SKILLS</h4>
                 <section class="npc-row npc-subsection">
                     {%- include npc-skills.html -%}
                 </section>
             </section>
+            {% endif %}
+            {% if npc.actions %}
             <section class="npc-column npc-section">
                 <h4>ACTIONS</h4>
                 <section class="npc-row npc-subsection">
@@ -55,6 +62,8 @@ layout: default
                     {%- include npc-weapons.html -%}
                 </section>
             </section>
+            {% endif %}
+            {% if npc.personality_traits %}
             <section class="npc-column npc-section">
                 <h4>TRAITS</h4>
                 <section class="npc-row npc-subsection">
@@ -64,6 +73,7 @@ layout: default
                     {%- endfor -%}
                 </section>
             </section>
+            {% endif %}
         </div>
     </section>
 

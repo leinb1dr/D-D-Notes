@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<article class="column">
+    <section class="row">
+        <div class="column primary-content">
+            {{ content }}
+        </div>
+        <div class="column secondary-content">
+            <div class="column">
+                <h3>City Locations</h3>
+                {% for otherpage in site.pages %}
+                {% if otherpage.dir contains page.dir %}
+                {% if otherpage.type == "location" %}
+                <h4><a href="{{otherpage.url | relative_url}}">{{otherpage.title}}</a></h4>
+                {% endif %}
+                {% endif %}
+                {% endfor %}
+            </div>
+            <div class="column">
+                <h3>City NPCs</h3>
+                {% assign current_dir = page.dir %}
+                {% assign npcs = site.pages | where_exp: 'item', 'item.dir contains current_dir' | where: 'type', 'npc' %}
+                {% assign npcs_by_location = npcs | group_by: 'location' %}
+                {% for npc_locations in npcs_by_location %}
+                {% assign locationPage = site.pages | where_exp: 'item', 'item.name contains npc_locations.name' | first %}
+                <h4><a href="{{ locationPage.url | relative_url}}" >{{ locationPage.title }}</a></h2>
+                <ul>
+                    {% for subpage in npc_locations.items %}
+                    <li><a href="{{ subpage.url | relative_url}}">{{ subpage.title }}</a></li>
+                    {% endfor %}
+                </ul>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+</article>

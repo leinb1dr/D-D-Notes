@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: city
 title: Fishmill
 type: city
 ---

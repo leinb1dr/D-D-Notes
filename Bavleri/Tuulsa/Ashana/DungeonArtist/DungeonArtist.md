@@ -1,5 +1,8 @@
-# Dungeon Artist Art Supplies
-
+---
+layout: location
+type: location
+title: Dungeon Artist Art Supplies
+---
 ## Location
 This art supplies shop is located in the city's bustling market district, attracting aspiring artists and dungeon crawlers alike.
 

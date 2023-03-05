@@ -1,0 +1,23 @@
+---
+layout: page
+---
+<article class="column">
+    <section class="row">
+        <div class="column primary-content">
+            {{ content }}
+        </div>
+        <div class="column secondary-content">
+            <div class="column">
+                <h4>Location NPCs</h4>
+                {% assign current_dir = page.dir %}
+                {% assign npcs = site.pages | where_exp: 'item', 'item.dir contains current_dir' | where: 'type', 'npc'
+                %}
+                <ul>
+                    {% for subpage in npcs %}
+                    <li><a href="{{ subpage.url | relative_url}}">{{ subpage.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </section>
+</article>

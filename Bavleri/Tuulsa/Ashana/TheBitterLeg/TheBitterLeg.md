@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: location
 title: The Bitter Leg
+type: location  
 ---
 The Bitter Leg is a tavern located in a Ashana. The owner of the tavern, Balgruuf.
 

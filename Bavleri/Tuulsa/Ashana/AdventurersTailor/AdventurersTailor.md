@@ -1,5 +1,8 @@
-# The Adventurer's Tailor
-
+---
+layout: location
+type: location
+title: The Adventurer's Tailor
+---
 ## Description
 Whether you're a seasoned adventurer or just starting out, The Adventurer's Tailor has the materials and expertise you need to outfit yourself for your next adventure.
 

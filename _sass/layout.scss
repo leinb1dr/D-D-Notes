@@ -10,6 +10,13 @@
     display: flex;
     flex-direction: column;
 }
+.primary-content{
+    max-width: 70%;
+}
+.secondary-content{
+    padding-left: 0.5em;
+    max-width: 30%;
+}
 .bordered-cell{
     padding: 0.5em;
     margin: 0.5em;
