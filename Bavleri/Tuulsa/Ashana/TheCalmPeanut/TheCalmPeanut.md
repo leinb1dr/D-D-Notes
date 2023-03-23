@@ -2,6 +2,7 @@
 layout: location
 title: The Calm Peanut
 type: location
+city: Ashana
 ---
 ## Description
 The Calm Peanut tavern is a warm and comfortable space, designed to make guests feel at home. The interrior is well-lit with laterns and candles scattered throughout the room to create a cozy atmosphere. The walls are made of rough-hewen wooden planks, and the ceiling is low with dark wooden beams that give the room a rustic charm.

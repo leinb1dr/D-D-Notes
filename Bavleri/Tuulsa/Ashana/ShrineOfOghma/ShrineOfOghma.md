@@ -2,6 +2,7 @@
 layout: location
 title: Shrine Of Oghma
 type: location
+city: Ashana
 ---
 The temple to Oghma in Ashana is a tall, three-story building made of white stone. The façade is adorned with intricate carvings of books, quills, and scrolls, and the entrance is marked by a large oak door with silver hinges. 
 

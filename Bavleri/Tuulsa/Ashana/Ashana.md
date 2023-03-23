@@ -2,6 +2,7 @@
 layout: city
 title: Ashana
 type: city
+inHeader: true
 ---
 ## Description
 

@@ -2,6 +2,7 @@
 layout: location
 type: location
 title: Dungeon Artist Art Supplies
+city: Ashana
 ---
 ## Location
 This art supplies shop is located in the city's bustling market district, attracting aspiring artists and dungeon crawlers alike.

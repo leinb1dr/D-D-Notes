@@ -2,6 +2,7 @@
 layout: location
 title: Slums
 type: location
+city: Ashana
 ---
 
 The old quarter is a sprawling district of ruined buildings and collapsed walls, with vegetation growing wild among the debris.

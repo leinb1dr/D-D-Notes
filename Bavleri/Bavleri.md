@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Bavleri
-type: city
+type: country
+inHeader: true
 ---
 
 <div style="float: left; width: 50%;">
