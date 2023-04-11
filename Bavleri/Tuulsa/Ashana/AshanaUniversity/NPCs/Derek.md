@@ -1,7 +1,7 @@
 ---
 layout: npc
 type: npc
-location: University
+location: AshanaUniversity
 title: Derek
 npc:
   race: Human
