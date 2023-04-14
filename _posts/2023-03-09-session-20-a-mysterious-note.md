@@ -1,48 +1,37 @@
 ---
 layout: post
-title: Session 19 - The Final Audition
-gameDate: 2020-10-31
+title: Session 20 - A Mysterious Note
+gameDate: 2020-11-01
 ---
 
 ### In Game Date: {{page.gameDate | date: "%m-%d-%Y"}}
 
 ### Recap of the Session
 
-The party successfully finishes their last audition. During the day Eddie got his id double checked and he asked the guild to look into it.
+The party gets a note that Eddie is being watched by the city for potentially committing a crime.
 
-The party questioned a new brewer, Skippy, at the Bitter Leg and found he recently left the The Calm Peanut.
-
-Finally after completing their forms, the party meets with an agent of the thieves guild and gets info about a possible mission to go on.
+The party also get a new quest to help the theives guild install a new department that would help the guild forge higher level documents.
 
 ### Player Character Updates
-- None
 
 ### NPC Updates
-- Balgruff
-- Skippy
-- Clifton: seems like he might be warming up to Eddie
 
 ### World Building
-- University: There is a wizard university in the city.
 
 ### Player Projects
 * Nightstar
     * Working on playing card proficiency: `In Progress`<br/>
 * Djinn
-    * Work Visa Residency: `1 days left`<br/>
+    * Work Visa Residency: `complete`<br/>
 * Eddie
-    * Work Visa Residency: `1 days left`<br/>
+    * Work Visa Residency: `complete`<br/>
 
 ### Quest Log
 * *Mysteries of Ashana:* `In Progress`<br/>
 No Updates
 
-* *Visa Approval:* `New`<br/>
+* *Visa Approval:* `In Progress`<br/>
 Clifton is handling the performance visa approval.
 
-* *Visa Audition:* `Complete`<br/>
-Completed 3/3 auditions
-
-* *Monster on The Road:* `Deferred`<br/>
-Obtained information about the quest<br/>
-Found location of most recent attack
+* *A New Office for Ashana:* `Started`<br/>
+Need to find the bureaucrat responsible for creating new offices. 

@@ -1,48 +1,44 @@
 ---
 layout: post
-title: Session 19 - The Final Audition
-gameDate: 2020-10-31
+title: Session 21 - The Learning Place
+gameDate: 2020-11-02
 ---
 
 ### In Game Date: {{page.gameDate | date: "%m-%d-%Y"}}
 
 ### Recap of the Session
 
-The party successfully finishes their last audition. During the day Eddie got his id double checked and he asked the guild to look into it.
+The party investigates the university to try and find where the artificiers teach.
 
-The party questioned a new brewer, Skippy, at the Bitter Leg and found he recently left the The Calm Peanut.
+Eddie found that his visa is blocked due to an on-going investigation
+Djinn's visa is approved.
 
-Finally after completing their forms, the party meets with an agent of the thieves guild and gets info about a possible mission to go on.
+The party finds a professor that is willing to cast a spell for them to talk to gobble-de.
+
+Eddie hires a lawyer.
 
 ### Player Character Updates
-- None
 
 ### NPC Updates
-- Balgruff
-- Skippy
-- Clifton: seems like he might be warming up to Eddie
+- Salazar Goodspell
+- Derek
+- Marcus
+- Trelany
 
 ### World Building
-- University: There is a wizard university in the city.
 
 ### Player Projects
 * Nightstar
     * Working on playing card proficiency: `In Progress`<br/>
-* Djinn
-    * Work Visa Residency: `1 days left`<br/>
 * Eddie
-    * Work Visa Residency: `1 days left`<br/>
+    * Work Visa Residency: `on-hold`<br/>
 
 ### Quest Log
 * *Mysteries of Ashana:* `In Progress`<br/>
 No Updates
 
-* *Visa Approval:* `New`<br/>
+* *Visa Approval:* `In Progress`<br/>
 Clifton is handling the performance visa approval.
 
-* *Visa Audition:* `Complete`<br/>
-Completed 3/3 auditions
-
-* *Monster on The Road:* `Deferred`<br/>
-Obtained information about the quest<br/>
-Found location of most recent attack
+* *A New Office for Ashana:* `In Progress`<br/>
+Need to find the bureaucrat responsible for creating new offices.
